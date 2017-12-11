@@ -47,5 +47,22 @@ $(document).ready(function () {
     $(".op-modal-sign-up").click(function(){
          $("#regist-modal").modal('show');
     });
+    
+    
+    
+    
+    //nastya
+    $('#testimonial-slider').flexslider({
+	   	namespace: "flex-",
+	      controlsContainer: "",
+	      animation: 'slide',
+	      controlNav: true,
+	      directionNav: true,
+	      smoothHeight: true,
+	      slideshowSpeed: 7000,
+	      animationSpeed: 600,
+	      randomize: false,
+	      touch: true,
+	   });
   
 });
